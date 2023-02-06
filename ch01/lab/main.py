@@ -1,5 +1,6 @@
 import random
-#Part A
+
+# Part A
 weeks = 16
 print(weeks, type(weeks))
 classes = 5
@@ -13,7 +14,7 @@ print ("Classes per week:", classes_per_week, type(classes_per_week))
 cost_per_class = (cost_per_week/classes_per_week)
 print ("Cost per class:",cost_per_class, type(cost_per_class))
 
-
+# Part B
 mylist = [1,2,3,4,5,6,7,8,9,10]
-print("your random number is", random.choice(mylist))
+print("Your random number is:", random.choice(mylist))
 
