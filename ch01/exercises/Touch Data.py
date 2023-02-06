@@ -8,3 +8,4 @@ print(10 % 15)
 print(10 % 10)
 print(0 % 10)
 print(10 / 15)
+#comment: last answer is a decimal instead of an integer making it a float 
