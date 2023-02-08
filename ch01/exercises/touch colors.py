@@ -1,3 +1,5 @@
-mycolors = ["red", "orange", "pink", "blue"]
-print(mycolors)
-print(mycolors[list_size-1])
+mycolors = ["red", "orange", "yellow",] 
+
+print (mycolors)
+list_size = len(mycolors)
+print(list_size)
