@@ -1,20 +1,11 @@
-# For loop example 
-
-Msg = "enter 3 numbers"
-mynums = []
-
-for i in [0,0,0]:
-    var = int(input(":"))
-    mynums.append(var)
-    print(mynums)
-print("all done")
-
-#for loop: repeats a sequential algorithm on sequential data 
-#for iterating_variable in sequence 
-#block statement always ends with a colon.Everything sthst is part of the blocjk is indented 
-
-#colors = ["red", "orange", "b"lue ", "yellow",]
-#for c in colors 
-#print(c)
-
-#list: for ch in ("hello") will print h e l l o 
+print(list(range(11)))
+print(list(range(3,10,2)))
+print(list(range(100,-1,-1)))
+print(list(range(10,-11,-5)))
+#range(stop)
+#range(start,stop)
+#range(start, stop, step) gives range with intervals (step)
+mylist = list(range(1,11))
+print( list( range(len(mylist))))
+for_in range(5)
+    print("happy birthday")
