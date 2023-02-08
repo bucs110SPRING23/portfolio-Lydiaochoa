@@ -1,8 +1,20 @@
-msg="hello" 
-print (msg)
-import random
-import math
-print(math.pi)
-mylist=[1,2,3,4,5,6,7,8,9,10]
-var=random.choice(mylist)
-print(var)
+# For loop example 
+
+Msg = "enter 3 numbers"
+mynums = []
+
+for i in [0,0,0]:
+    var = int(input(":"))
+    mynums.append(var)
+    print(mynums)
+print("all done")
+
+#for loop: repeats a sequential algorithm on sequential data 
+#for iterating_variable in sequence 
+#block statement always ends with a colon.Everything sthst is part of the blocjk is indented 
+
+#colors = ["red", "orange", "b"lue ", "yellow",]
+#for c in colors 
+#print(c)
+
+#list: for ch in ("hello") will print h e l l o 
