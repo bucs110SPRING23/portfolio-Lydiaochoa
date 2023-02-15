@@ -1,14 +1,19 @@
+#problems: "white" is not defined and "display" is not defined 
 import pygame
+import turtle
 pygame.init()
 
 screen = pygame.display.set_mode()
-window = screen
 screen_size = screen.get_size()
 
-
-dimensions = [screen_size[0] / 2, screen_size[1] / 2, 250, 250]
-screen.fill(white)
-pygame.time.wait(1000)
-pygame.draw.circle(display,"blue", [200,150], 50)
-screen.display.flip()
-window.exitonclick()
+while 1:
+    pygame.event.get()
+    dimensions = [screen_size[0] / 2, screen_size[1] / 2]
+    screen.fill("white")
+    pygame.time.wait(1000) #do I need wait function for this 
+    pygame.draw.circle(screen,"blue", dimensions, 50)
+    pygame.draw.circle(screen,"blue", [100,100], 75)
+    pygame.draw.circle(screen,"blue", [150,150], 100)
+    pygame.display.flip()
+    pygame.time.wait(1000)
+    break
