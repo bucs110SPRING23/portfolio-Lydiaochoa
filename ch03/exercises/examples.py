@@ -52,3 +52,5 @@ else:
 #elif: always goes between the if and else. this is optional, you can have as many as you want.
 # is<boolean condition> is required to do something 
 # else is optional too 
+
+# what is the difference between elif and else
