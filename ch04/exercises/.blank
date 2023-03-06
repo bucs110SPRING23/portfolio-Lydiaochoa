@@ -1,0 +1,43 @@
+#collection objects 
+##lists - list of any set of objects 
+#tuples - immutable lists of any set of objects 
+#mytuple=(list of integers )
+#whats the point of tuples: faster than mutable lists 
+#dictionaries-- used to store key/value pairs 
+#mydictionary = {"a":1,"b":2 , "c":3}
+#mydictionary["a"]
+
+#while- more control over the loop, runs the loop until a condition is met 
+
+msg = "enter a number between 1 and 5: "
+num = int(input(msg))
+while num >5 or num <1:
+    if num >5 or num < 1:
+        num = int(input(msg))
+
+print("done")
+
+for i in range(10):
+    print(i)
+i = 0 #iterating variable 
+while i <10: 
+    print(i)
+iterating variable must be able to change 
+
+mylist = [1,2,3,4,5,6,7,8,9,10]
+i = 0 
+while i len(mylist):
+    print(mylist[i])
+
+#any forloop can be recreated with a while loop 
+
+while i < 0: 
+    print(i)
+    i +=3
+
+import random
+i = 0 
+while i < 5:
+    if random.randrange(2):
+    i 
+
