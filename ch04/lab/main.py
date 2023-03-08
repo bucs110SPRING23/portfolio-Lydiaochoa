@@ -22,10 +22,13 @@ pygame.display.flip()
 pygame.time.wait(1000)
 
 #part B
-
+#make player 1 and player 2 
 for Z in range(20):
-    x = random.randrange(0,w)
-    y = random.randrange(0,h)
+    x1 = random.randrange(0,w)
+    y1 = random.randrange(0,h)
+    x2 = random.randrange(0,w)
+    y1 = random.randrange(0,h)
+
     distance_from_center = math.hypot(w/2- x, h/2 - y) #the distance formula
     is_in_circle = (distance_from_center <= h/2) #screen height
     if is_in_circle:
@@ -35,3 +38,6 @@ for Z in range(20):
     pygame.display.flip()
 pygame.time.wait(5000)
 
+#font = pygame.font.Font(None, 48)
+#text = font.render(<your message>, True, "white")
+#screen.blit(text, (<x>, <y>)) # where <x> and<y> are coordinates on screen
