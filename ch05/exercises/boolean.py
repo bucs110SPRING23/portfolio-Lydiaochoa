@@ -1,4 +1,9 @@
-def percentage_to_letter(percent): # we can use "pass" as a placeholder 
+def percentage_to_letter(percent= 99): # we can use "pass" as a placeholder 
+    """ 
+    this a function that returns a letter based on a percentage
+    args: percent(int)
+    return:letter (str)
+    """
     letter = "A"
     if 80 < percent < 90:
         letter = "B"
@@ -21,3 +26,16 @@ def main(): #driver code: top level algorithm. called main for historical reason
             print("you passed!")
         else: 
             print("someone messed up your grades")
+
+main()
+
+print(percentage_to_letter.__doc__)
+
+def remove_vowels(string):
+    vowels = "aeiou"
+    vowels += vowels.upper() #includes upper case
+    result = "" #why did we do this? because strings are immutable. if you want the new string to be different(ie adding or subtracting vowels) you need to make a wholenew string 
+    for ch in string:
+        if ch not in vowels:
+            result +=ch
+    return result
