@@ -6,11 +6,12 @@ def main():
     #you can also do file_pointer.readlines which will read out every single line in a file 
     #open("ideas.txt") #file must be from same folder as main function? you can do "folder"/"filename"
 
-    file_pointer = open("ideas.txt" "w") #file gets truncated
+    file_pointer = open("ideas.txt" "a") #file gets truncated
     idea = input("enter an idea: ")
     ideas = []
     ideas.append(idea)
-    print (ideas)
+    for i in ideas:
+         file_pointer.write(i + "backslash n")
 
 main()
 
