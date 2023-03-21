@@ -1,9 +1,9 @@
 # CS110 Midterm Exam
 
-## SHORT DESCRIPTION *Program draws picture of a house*
+## SHORT DESCRIPTION *Program draws picture of a flower based on user input*
 
-## KNOWN BUGS AND INCOMPLETE PARTS *(list any known bugs or non-working parts)*
+## KNOWN BUGS AND INCOMPLETE PARTS *(none)*
 
-## REFERENCES *(any resources you use outside of class materials)*
+## REFERENCES *(none)*
 
-## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
+## MISCELLANEOUS COMMENTS *(none)*
