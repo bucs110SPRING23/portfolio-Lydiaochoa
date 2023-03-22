@@ -27,3 +27,4 @@ def caesar_cipher(text,shift):
     for letter in text: 
         if letter.isalpha():
             start = ord('J')
+            new_pos = (ord(letter)) - start + shift
