@@ -82,3 +82,73 @@ p2.x = 5
 
 #t = turtl.Turtle()
 #w = turtle.Screen()
+
+#3/27
+
+# blueprint for an object: 
+# def graph_point():
+# class == type
+# class are named with Titlecase
+
+class Colorpoint:
+    "docstring for point"
+    def _init_(self): 
+        self.xcoor =0 
+        self.ycoor = 0 
+        self.color = "red"
+
+import point
+import turtle 
+import sub.module #folderr is sub, file is called module 
+
+#from sub import module 
+
+#snake case: snake_case, underscored for all spaces, all lowercase
+#camelcase: camelCase, capital for space, starts lowercase lowercase 
+# turtlecase: TitleCase, capital for spaces, starts capital
+p1= point.Point() 
+print(p1.xcoor, p1.ycoor,p2.color,type(p2))
+p2= point.Point()
+print(p2.xcoor,p2.ycoor,p2.color,type(p2))
+
+#functions are called methods hren theyre in a classs
+# in this case, the function  is a blueprint for how to create an object within this class
+
+self.xcoor = abs(x)
+self.ycoor = abs(y) 
+self.on = True 
+self.rect = pygame.Ract(abs(x), abs(y), 5,5)
+self.color = color
+
+def random_color(self)
+    colors= []
+    self.color = random.choice(colors)
+
+
+
+
+#in another file: 
+import random
+p1 = point.Point() 
+p2 = point.Point(3,4, "yellow")
+
+p1.xcoor = 10 
+print(p1.xcorr, p1.ycoor,p1.color type(p1), id(p1))
+print(p2.xcoor,p2.ycoor,p2.color type(p2)id(p2))
+
+points = []
+for p in range(10) 
+x = random.rantint(0,250)
+y = random.randint(0,250)
+points.append(point.Point(x,y))
+
+t = turtle.Turtle()
+for p in points 
+p.random_color
+t.color(p.color)
+t.goto(p.xcoor,p.ycoor)
+
+turtle.Screen().exitonclick()
+
+class stars 
+pygame.
