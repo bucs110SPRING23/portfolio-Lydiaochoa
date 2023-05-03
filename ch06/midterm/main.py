@@ -5,7 +5,7 @@ length = int(input("enter length of petals: "))
 window = turtle.Screen()
 pen = turtle.Turtle()
 
-def main ():
+def main():
     for i in range(4):
         pen.fd(50)
         pen.right(90)
