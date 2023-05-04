@@ -32,12 +32,17 @@ pygame.event.get()
 screen.fill("chartreuse4")
 pygame.display.flip() 
 
-pygame.draw.rect(screen,"cadetblue2",(0,400,w,400))
+river_width = w
+river_height= (h / 5 ) * 2
+
+pygame.draw.rect(screen,"cadetblue2",(0,400,river_width,river_height))
 pygame.display.flip()
-pygame.draw.circle(screen,"green",(380,40))
+pygame.draw.circle(screen,"black",[20,200],30)
 pygame.display.flip()
 pygame.time.wait(2000)
 
-class frog:
-    player = pygame.draw.circle()
+
+# class frog:
+    # player = pygame.draw.circle()
     
+# [river_width / 4, river_height /2], 400)
