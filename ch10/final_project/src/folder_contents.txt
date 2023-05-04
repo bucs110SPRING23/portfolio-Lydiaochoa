@@ -1,1 +1,6 @@
 All of your python files, except main.py, go in this folder
+I think I need to put my opygame stuff in here probably 
+backup--> i could import an impage and play on top of it. 
+ what does pady mean 
+
+
