@@ -1,5 +1,5 @@
 import pygame
-def land(river):
+def land():
     pygame.init
     w = 10000
     h = 1000
@@ -18,6 +18,8 @@ def land(river):
     pygame.draw.circle(screen,"chartreuse3",[500,500],60)
     pygame.draw.circle(screen,"chartreuse3",[800,600],60)
     pygame.draw.circle(screen,"chartreuse3",[1100,480],60)
+    pygame.draw.circle(screen,"chartreuse3",[500,700],60)
+    pygame.draw.circle(screen,"chartreuse3",[1100,700],60)
     pygame.display.flip()
     pygame.time.wait(2000)
-
+land()
