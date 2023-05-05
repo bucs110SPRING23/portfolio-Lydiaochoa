@@ -1,10 +1,14 @@
 import tkinter as tk
 from tkinter import *
-from .py import land(river):
+# from landscape import land
 
 root = Tk()
-mylabel = Label(root,text= ("hello world "))
+mylabel = Label(root,text="start game")
 mylabel.pack()
 
-root.mainloop()
+def create_buttons(self): 
+    self.my_counter = t12tk.Label(self.window, text = "start")
 
+
+
+root.mainloop()
